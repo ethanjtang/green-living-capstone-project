@@ -88,8 +88,8 @@ const CalculatorPage: React.FC = () => {
                              waterConsumptionScore +
                              airQualityScore;
     
-    let sustainabilityScore:string;
-    let sustainabilityScoreDetail:string;
+    let sustainabilityScore = "";
+    let sustainabilityScoreDetail = "";
 
     if (!sustainabilityScoreDisplay || !sustainabilityScoreExplanationDisplay)
     {
@@ -124,7 +124,8 @@ const CalculatorPage: React.FC = () => {
       }
       else
       {
-        sustainabilityScore = "Error: no inputs found.";
+        sustainabilityScore = "Error!";
+        sustainabilityScoreDetail = "Please select a value for each category."
       }
 
       sustainabilityScoreDisplay.textContent = sustainabilityScore;

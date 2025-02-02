@@ -37,7 +37,7 @@ export default function Home() {
                   Future: 
                 </span>
                
-                &nbsp;Sustainable Homes and Eco-Friendly Living
+                &nbsp;Your #1 Resource for Sustainable Living
               </p>
           </div>
           {/* TODO: Fix badly factored code. Currently setting text color manually instead of importing from globals.css. */}
